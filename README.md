@@ -14,14 +14,16 @@ Summary: Cython bindings for MurmurHash2
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/murmurhash-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/murmurhash-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/murmurhash-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/murmurhash-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/murmurhash-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/murmurhash-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/murmurhash-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/murmurhash-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/murmurhash-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/murmurhash-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/murmurhash-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/murmurhash-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/murmurhash/badges/version.svg)](https://anaconda.org/conda-forge/murmurhash)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/murmurhash/badges/downloads.svg)](https://anaconda.org/conda-forge/murmurhash)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-murmurhash-green.svg)](https://anaconda.org/conda-forge/murmurhash) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/murmurhash.svg)](https://anaconda.org/conda-forge/murmurhash) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/murmurhash.svg)](https://anaconda.org/conda-forge/murmurhash) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/murmurhash.svg)](https://anaconda.org/conda-forge/murmurhash) |
 
 Installing murmurhash
 =====================
@@ -66,6 +68,7 @@ To manage the continuous integration and simplify feedstock maintenance
 Using the ``conda-forge.yml`` within this repository, it is possible to re-render all of
 this feedstock's supporting files (e.g. the CI configuration files) with ``conda smithy rerender``.
 
+For more information please check the [conda-forge documentation](https://conda-forge.org/docs/).
 
 Terminology
 ===========
