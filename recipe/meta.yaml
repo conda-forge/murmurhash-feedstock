@@ -1,6 +1,6 @@
 {% set name = "murmurhash" %}
-{% set version = "1.0.0" %}
-{% set sha256sum = "929a394bcc80c4aefba84a99ab7733c6d25c62335f8d66767e3892e578a57424" %}
+{% set version = "1.0.1" %}
+{% set sha256sum = "38e91cd5ae5192b8f63cfe756cc784bf0cd44f64a15e496ba0a6fddda3f48b0b" %}
 
 package:
   name: {{ name }}
