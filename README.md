@@ -1,7 +1,7 @@
 About murmurhash
 ================
 
-Home: https://github.com/explosion/murmurhash/
+Home: https://github.com/explosion/murmurhash
 
 Package license: MIT
 
