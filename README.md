@@ -5,11 +5,9 @@ Home: https://github.com/explosion/murmurhash/
 
 Package license: MIT
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/murmurhash-feedstock/blob/master/LICENSE.txt)
 
 Summary: Cython bindings for MurmurHash2
-
-
 
 Current build status
 ====================
