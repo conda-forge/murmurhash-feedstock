@@ -1,6 +1,6 @@
 {% set name = "murmurhash" %}
-{% set version = "1.0.0" %}
-{% set sha256sum = "929a394bcc80c4aefba84a99ab7733c6d25c62335f8d66767e3892e578a57424" %}
+{% set version = "1.0.2" %}
+{% set sha256sum = "c7a646f6b07b033642b4f52ae2e45efd8b80780b3b90e8092a0cec935fbf81e2" %}
 
 package:
   name: {{ name }}
@@ -12,9 +12,9 @@ source:
   sha256: {{ sha256sum }}
 
 build:
-  number: 1
+  number: 0
   script: python setup.py install --single-version-externally-managed --record=record.txt
-  skip: True  # [win32 or linux32]
+  skip: true  # [win32 or linux32]
 
 requirements:
   build:
