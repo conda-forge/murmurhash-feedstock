@@ -22,8 +22,10 @@ requirements:
     - {{ compiler('cxx') }}
   host:
     - msinttypes  # [win and py<35]
+    - pip
     - python
     - setuptools
+    - wheel
 
   run:
     - python
