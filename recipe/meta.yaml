@@ -23,6 +23,7 @@ requirements:
   host:
     - msinttypes  # [win and py<35]
     - python
+    - pip
     - setuptools
 
   run:
