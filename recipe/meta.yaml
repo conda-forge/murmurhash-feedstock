@@ -32,12 +32,9 @@ requirements:
 test:
   requires:
     - pytest
-    - mmh3
   imports:
     - murmurhash
     - murmurhash.mrmr
-  commands:
-    - python -m pytest --tb=native --pyargs {{ name }}
 
 about:
   home: https://github.com/explosion/murmurhash/
