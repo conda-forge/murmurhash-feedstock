@@ -34,8 +34,7 @@ test:
     - pytest
   imports:
     - murmurhash
-  commands:
-    - python -m pytest --tb=native --pyargs {{ name }}
+    - murmurhash.mrmr
 
 about:
   home: https://github.com/explosion/murmurhash/
