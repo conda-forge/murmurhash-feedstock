@@ -13,7 +13,7 @@ source:
 
 build:
   number: 0
-  script: python setup.py install --single-version-externally-managed --record=record.txt
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
   skip: true  # [win32 or linux32]
 
 requirements:
@@ -22,9 +22,11 @@ requirements:
     - {{ compiler('cxx') }}
   host:
     - msinttypes  # [win and py<35]
+    - cython
     - python
     - pip
     - setuptools
+    - wheel
 
   run:
     - python
