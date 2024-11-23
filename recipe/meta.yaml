@@ -1,6 +1,6 @@
 {% set name = "murmurhash" %}
-{% set version = "1.0.10" %}
-{% set sha256sum = "5282aab1317804c6ebd6dd7f69f15ba9075aee671c44a34be2bde0f1b11ef88a" %}
+{% set version = "1.0.11" %}
+{% set sha256sum = "87ff68a255e54e7648d0729ff4130f43f7f38f03288a376e567934e16db93767" %}
 
 package:
   name: {{ name }}
@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256sum }}
 
 build:
-  number: 2
+  number: 0
   script: {{ PYTHON }} -m pip install . --no-deps -vv
   skip: true  # [win32 or linux32]
 
