@@ -1,6 +1,6 @@
 {% set name = "murmurhash" %}
-{% set version = "1.0.10" %}
-{% set sha256sum = "5282aab1317804c6ebd6dd7f69f15ba9075aee671c44a34be2bde0f1b11ef88a" %}
+{% set version = "1.0.12" %}
+{% set sha256sum = "467b7ee31c1f79f46d00436a1957fc52a0e5801369dd2f30eb7655f380735b5f" %}
 
 package:
   name: {{ name }}
@@ -8,11 +8,11 @@ package:
 
 source:
   fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: {{ sha256sum }}
 
 build:
-  number: 2
+  number: 0
   script: {{ PYTHON }} -m pip install . --no-deps -vv
   skip: true  # [win32 or linux32]
 
