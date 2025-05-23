@@ -365,5 +365,6 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
-* [@rmax](https://github.com/rmax/)
 * [@conda-forge/spacy](https://github.com/orgs/conda-forge/teams/spacy/)
+* [@rmax](https://github.com/rmax/)
+
