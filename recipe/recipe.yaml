@@ -47,6 +47,8 @@ tests:
   - requirements:
       run:
         - pytest
+    script:
+        - run_test.py
 
 about:
   license: MIT
