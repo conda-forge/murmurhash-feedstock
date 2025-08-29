@@ -49,6 +49,10 @@ tests:
         - pytest
     script:
         - python run_test.py
+    files:
+      recipe:
+        - run_test.py
+
 
 about:
   license: MIT
