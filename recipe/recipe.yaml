@@ -13,17 +13,17 @@ source:
   sha256: 737246d41ee00ff74b07b0bd1f0888be304d203ce668e642c86aa64ede30f8b7
 
 build:
-  number: 0
+  number: 1
   skip: win32 or linux32 or match(python, '>=3.14')
   script: ${{ PYTHON }} -m pip install . --no-deps --no-build-isolation -vv
 
 requirements:
   build:
     - if: build_platform != target_platform
-      then: 
-      - python
-      - cross-python_${{ target_platform }}
-      - cython
+      then:
+        - python
+        - cross-python_${{ target_platform }}
+        - cython
     - ${{ compiler('c') }}
     - ${{ stdlib("c") }}
     - ${{ compiler('cxx') }}
@@ -48,7 +48,7 @@ tests:
       run:
         - pytest
     script:
-        - python run_test.py
+      - python run_test.py
     files:
       recipe:
         - run_test.py
