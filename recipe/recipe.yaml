@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: murmurhash
-  version: "1.0.14"
+  version: "1.0.15"
 
 package:
   name: ${{ name }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name }}-${{ version }}.tar.gz
-  sha256: dd5a31d995b8ae7c2179f9752f4e0800b020230edfb81f45f8841f8a5abafc18
+  sha256: 58e2b27b7847f9e2a6edf10b47a8c8dd70a4705f45dccb7bf76aeadacf56ba01
 
 build:
   number: 0
